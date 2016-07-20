@@ -28,7 +28,7 @@
             style="@style/btn_white_large"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ULAB ADDA 123"
+            android:text="ULAB\n আড্ডা বাজি"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="@dimen/pad_30dp"

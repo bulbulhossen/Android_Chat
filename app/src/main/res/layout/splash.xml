@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:gravity="center"
     android:orientation="vertical" android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <ImageView android:id="@+id/splashscreen" android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
-        android:src="@drawable/logo_login"
-        android:layout_gravity="center"/>
 
-    <TextView android:layout_width="fill_parent"
+
+
+    <TextView
+        style="@style/btn_white_large"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World, splash"/>
+        android:text="ULAB\n আড্ডা বাজি"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/pad_30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="60dp"
 
-</LinearLayout>
+        android:layout_marginTop="138dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <TextView
+        android:padding="7dp"
+        android:gravity="center"
+        android:textSize="@dimen/txt_14sp"
+        android:textAlignment="center"
+       android:background="#0787d8"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:text="Develop By UlAB Students"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

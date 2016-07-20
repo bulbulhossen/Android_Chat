@@ -59,15 +59,16 @@ public final class R {
         public static final int icon=0x7f02000f;
         public static final int logo_login=0x7f020010;
         public static final int send_background=0x7f020011;
-        public static final int user_chat1=0x7f020012;
-        public static final int user_chat2=0x7f020013;
+        public static final int speech_bubble_green=0x7f020012;
+        public static final int speech_bubble_orange=0x7f020013;
+        public static final int user_chat1=0x7f020014;
+        public static final int user_chat2=0x7f020015;
     }
     public static final class id {
         public static final int btnLogin=0x7f08000b;
         public static final int btnReg=0x7f08000c;
         public static final int btnSend=0x7f080002;
-        public static final int email=0x7f08000e;
-        public static final int imageView1=0x7f08000d;
+        public static final int email=0x7f08000d;
         public static final int lbl1=0x7f080005;
         public static final int lbl2=0x7f080006;
         public static final int lbl3=0x7f080007;
@@ -75,7 +76,6 @@ public final class R {
         public static final int llaa=0x7f080003;
         public static final int main=0x7f08000a;
         public static final int pwd=0x7f080009;
-        public static final int splashscreen=0x7f08000f;
         public static final int txt=0x7f080001;
         public static final int user=0x7f080008;
         public static final int v1=0x7f080004;
